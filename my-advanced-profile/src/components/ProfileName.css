@@ -1,0 +1,8 @@
+.profile_name {
+  margin-top: 1em;
+}
+.profile_name > p {
+  font-size: x-large;
+  text-transform: uppercase;
+  font-weight: bold;
+}
