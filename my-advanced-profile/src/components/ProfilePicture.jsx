@@ -1,8 +1,12 @@
-import React from "react";
+import React from 'react';
+import './ProfilePicture.css';
 
-function ProfilePicture() {
+function ProfilePicture(props) {
   return (
-    <img src="https://avatars.githubusercontent.com/u/125909673?v=4"></img>
+    <div className="profile_picture">
+      <img src={props.userPhoto}></img>
+    </div>
+    // <img src={profilei}></img>
   );
 }
 

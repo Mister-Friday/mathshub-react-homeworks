@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-function ProfileCitation() {
+function ProfileCitation(props) {
   return (
-    <i>
-      <strong>
-        Твой путь — путь волка, но путь не волк, если в тебе не ты.
-      </strong>
-    </i>
+    <div>
+      <i>
+        <strong>{props.textCitation}</strong>
+      </i>
+    </div>
   );
 }
 

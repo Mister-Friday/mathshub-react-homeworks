@@ -1,18 +1,31 @@
-import React from "react";
+import React from 'react';
+import './ProfileHobbies.css';
 
-function ProfileHobbies() {
+function ProfileHobbies(props) {
   return (
-    <section>
-      <h3>Хобби.</h3>
-      <ul>
-        <li>Веселье</li>
-        <li>
-          <i>веселье</i>
-        </li>
-        <li>Мелиорация</li>
-      </ul>
-    </section>
+    <div className="profile_hobbies">
+      <section>
+        <h3>Хобби:</h3>
+        <ul>
+          {props.userHobbies.map((item, idx) => (
+            <li key={idx}>{item}</li>
+          ))}
+        </ul>
+
+        {/* <ul>
+          <li>{props.userHobbies[0]}</li>
+          <li>{props.userHobbies[1]}</li>
+          <li>{props.userHobbies[2]}</li>
+        </ul> */}
+      </section>
+    </div>
   );
 }
+
+// const arr = [1,2,3]
+
+// arr.map((item) => {
+//   <li>{item}</li>
+// })
 
 export default ProfileHobbies;
