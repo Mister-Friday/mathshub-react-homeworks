@@ -1,0 +1,12 @@
+.buttonAlt {
+  font-family: 'Roboto Condensed', sans-serif;
+  border: none;
+  background: transparent;
+  color: #a1d1eb;
+  cursor: pointer;
+}
+
+.buttonAlt:hover {
+  background: transparent;
+  color: #70b3d7;
+}
