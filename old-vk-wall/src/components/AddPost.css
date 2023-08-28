@@ -1,0 +1,23 @@
+.comment_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 900px;
+  border: 1px solid #d4d4d4;
+  border-radius: 3px;
+}
+
+.comment_form input {
+  width: auto;
+  border: none;
+  margin: 15px;
+  font-size: 16px;
+}
+
+.comment_form input:focus {
+  outline: none;
+}
+
+.comment_form button {
+  width: 200px;
+}

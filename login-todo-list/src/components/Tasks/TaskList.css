@@ -1,0 +1,134 @@
+.task_list {
+  margin: 10px;
+}
+
+.task_list_title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.message {
+  font-style: italic;
+  color: rgb(150, 152, 152);
+  border: 3px dotted rgb(150, 152, 152);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.task_list_item {
+  height: auto;
+  width: 100%;
+  background-color: rgb(150, 152, 152);
+  border-radius: 15px;
+  padding: 2px;
+  font-style: normal;
+  color: #151925;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+.task_list_item_important {
+  height: auto;
+  width: 100%;
+  background-color: rgba(255, 0, 123, 0.152);
+  border-radius: 15px;
+  padding: 2px;
+  font-style: normal;
+  color: #151925;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.task_list_item_completed {
+  height: auto;
+  width: 100%;
+  background-color: rgb(77, 78, 78);
+  border-radius: 15px;
+  padding: 2px;
+  font-style: normal;
+  color: #151925;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.task_list_item_completed h3 {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: inherit;
+  word-wrap: break-word;
+}
+
+h3 {
+  width: inherit;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+h3.important_task {
+  color: #fc4727;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #151925;
+  margin: 0;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  width: inherit;
+  font-size: 18px;
+  margin: 2px;
+}
+
+.date_create {
+  float: left;
+  width: 200px;
+  background-color: #01aa25;
+  border-radius: 50px;
+  margin: 5px;
+  color: #fff;
+}
+.date_finish {
+  float: right;
+  background-color: #fc4727;
+  border-radius: 50px;
+  width: 200px;
+  margin: 5px;
+  color: #fff;
+}
+
+.info_container {
+  /* display: flex; */
+  margin: 5px;
+}
+
+.info {
+  float: left;
+
+  background-color: #fc4727;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  padding: 3px;
+}
+
+.info_hidden {
+  display: none;
+}
+
+.delete_task_btn {
+  float: right;
+  background-color: #01aa25;
+}
+
+.task_btn {
+  width: 205px;
+  height: 34px;
+}
