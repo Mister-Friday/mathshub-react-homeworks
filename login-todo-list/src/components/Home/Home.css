@@ -1,0 +1,16 @@
+.home {
+  width: 100%;
+  max-width: 40rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.light_style {
+  background-color: rgb(215, 232, 247);
+}
+
+.dark_style {
+  background-color: #151925;
+  color: rgb(215, 232, 247);
+}

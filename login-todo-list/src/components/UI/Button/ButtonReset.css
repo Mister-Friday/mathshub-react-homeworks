@@ -1,0 +1,15 @@
+.button_reset {
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  background: transparent;
+  color: #151925;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button_reset:hover {
+  background: transparent;
+  font-weight: 600;
+  color: black;
+}
