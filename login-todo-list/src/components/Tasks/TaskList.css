@@ -1,0 +1,147 @@
+.task_list {
+  margin: 10px;
+}
+
+.task_list_title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.message {
+  font-style: italic;
+  color: rgb(150, 152, 152);
+  border: 3px dotted rgb(150, 152, 152);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.task_list_item {
+  height: auto;
+  width: 100%;
+  background-color: #bfeaf6;
+  border-radius: 10px;
+  padding: 2px;
+  font-style: normal;
+  color: #151925;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.task_list_item_important {
+  height: auto;
+  width: 100%;
+  background-color: #ffd9d9;
+  border-radius: 10px;
+  padding: 2px;
+  font-style: normal;
+  color: #151925;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.task_list_item_completed {
+  text-decoration: line-through;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: inherit;
+  word-wrap: break-word;
+}
+
+.task_completed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: inherit;
+  word-wrap: break-word;
+  filter: blur(1px);
+}
+
+h3 {
+  width: inherit;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+hr {
+  width: 100%;
+  /* border: 1px solid #151925; */
+  margin: 0;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  width: inherit;
+  font-size: 18px;
+  margin: 2px;
+}
+
+.date_create {
+  float: left;
+  width: 200px;
+  background-color: #01aa25;
+  border-radius: 50px;
+  margin: 5px;
+  color: #fff;
+}
+
+.date_finish {
+  float: right;
+  background-color: #f73100;
+  border-radius: 50px;
+  width: 200px;
+  margin: 5px;
+  color: #fff;
+}
+
+.info_container {
+  /* display: flex; */
+  margin: 5px;
+}
+
+.info {
+  float: left;
+  /* width: 1em;
+  height: 1em; */
+  /* background-color: #ffe5e0; */
+  /* border-radius: 50%; */
+  /* color: #d9fa00; */
+  color: #ff6060;
+  font-weight: 600;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.info_hidden {
+  display: none;
+}
+
+.delete_task_btn {
+  float: right;
+  background-color: #01aa25;
+}
+
+/* .task_btn {
+  width: 205px;
+  height: 34px;
+} */
+
+.filter_block {
+  margin: 5px;
+  border: 1px solid black;
+  height: 30px;
+  padding: 2px;
+  margin-bottom: 30px;
+}
+
+.left_bar {
+  float: left;
+}
+
+.right_bar {
+  float: right;
+}
