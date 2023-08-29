@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import AddPost from './components/AddPost';
 import PostsList from './components/PostsList';
 import './App.css';
+// import CreateUser from './components/CreateUser';
 
 function App() {
   const [posts, setPosts] = useState([]);
@@ -56,6 +57,7 @@ function App() {
       }
     );
     const data = await response.json();
+
     console.log('data =', data);
   };
 
@@ -82,6 +84,7 @@ function App() {
         </button>
       </section>
       <section>{content}</section>
+      {/* <CreateUser /> */}
     </>
   );
 }
