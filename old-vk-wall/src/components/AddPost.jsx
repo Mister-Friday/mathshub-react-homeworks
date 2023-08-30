@@ -16,23 +16,16 @@ function AddPost({ onAddPost }) {
     const lastName = user.name.lastname.name;
     const gender = user.name.firstname.gender;
 
-    // const mouths = [
-    //   'frown',
-    //   'laughing',
-    //   'nervous',
-    //   'pucker',
-    //   'sad',
-    //   'smile',
-    //   'smirk',
-    //   'surprised',
-    // ];
-
     const manExterior = ['dannyPhantom', 'mrClean', 'dougFunny', 'fonze'];
     const womanExterior = ['full', 'mrClean', 'mrT', 'pixie'];
 
     const getRandomArrElement = (arr) => {
-      const arrLenght = arr.lenght;
-      let rand = Math.random() * (arrLenght + 1);
+      const arrLength = arr.length;
+
+      let rand = Math.random() * arrLength;
+
+      rand = Math.floor(rand);
+
       return arr[rand];
     };
 
@@ -43,14 +36,6 @@ function AddPost({ onAddPost }) {
     if (gender !== 'm') {
       hair = getRandomArrElement(womanExterior);
     }
-
-    // console.log({
-    //   name: firstName,
-    //   lastName: lastName,
-    //   gender: gender,
-    //   hair: hair,
-    //   mouth: getRandomArrElement(mouths),
-    // });
 
     return {
       name: firstName,
@@ -72,7 +57,7 @@ function AddPost({ onAddPost }) {
     const post = {
       comment: postTextRef.current.value,
       date: date,
-      avatar: 'https://api.dicebear.com/7.x/pixel-art/svg?',
+      avatar: `https://api.dicebear.com/7.x/micah/svg?seed=${userName}&hair=${userData.hair}`,
       name: userName,
     };
 

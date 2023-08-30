@@ -19,17 +19,6 @@ function CreateUser() {
       'https://api.dicebear.com/7.x/pixel-art/svg'
     );
 
-    const mouths = [
-      'frown',
-      'laughing',
-      'nervous',
-      'pucker',
-      'sad',
-      'smile',
-      'smirk',
-      'surprised',
-    ];
-
     // const symbols = '0123456789abcdf'.split('');
 
     const manExterior = {
@@ -54,7 +43,6 @@ function CreateUser() {
       lastName: lastName,
       gender: gender,
       hair: hair,
-      mouth: getRandomArrElement(mouths),
     };
   };
 
