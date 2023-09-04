@@ -56,9 +56,9 @@ function App() {
         },
       }
     );
-    const data = await response.json();
+    const responseJson = await response.json();
 
-    console.log('data =', data);
+    console.log('responseJson =', responseJson);
   };
 
   let content = <p>Здесь пока пусто. Напишите что-нибудь!</p>;
