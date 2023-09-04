@@ -1,0 +1,40 @@
+.post_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-top: 0.1px solid #d4d4d4;
+  border-bottom: 0.1px solid #d4d4d4;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 10px;
+}
+
+.central_part {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comment {
+  word-wrap: break-word;
+}
+
+.sub_data {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blue_text {
+  color: #6383a8;
+}
+
+.like_icon {
+  display: flex;
+  flex-direction: column-reverse;
+}
