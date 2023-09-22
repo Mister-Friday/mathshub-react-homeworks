@@ -1,0 +1,6 @@
+.cards_template {
+  display: grid;
+  max-width: 10rem;
+  /* grid-template-columns: 4; */
+  gap: 1rem;
+}
