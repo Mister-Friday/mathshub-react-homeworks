@@ -5,7 +5,7 @@ import './CardTemplate.css';
 const CardTamplate = ({ cards }) => {
   // const cardsEntries = Object.entries(cards);
   return (
-    <div className="cardsTemplate">
+    <div className="cards_template">
       {cards.map((card, index) => (
         <Card
           key={index}

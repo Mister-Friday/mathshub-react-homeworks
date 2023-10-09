@@ -111,9 +111,9 @@ const initialtitlesState = {
       ],
     },
     {
-      title: 'Action (set C)',
+      title: 'Animal (set A)',
       image: '',
-      card: [
+      cards: [
         {
           title: 'cat',
           translation: 'кот',
@@ -165,9 +165,9 @@ const initialtitlesState = {
       ],
     },
     {
-      title: 'Action (set E)',
+      title: 'Animal (set B)',
       image: '',
-      card: [
+      cards: [
         {
           title: 'bird',
           translation: 'птица',
@@ -219,7 +219,7 @@ const initialtitlesState = {
       ],
     },
     {
-      title: 'Action (set F)',
+      title: 'Clothes',
       image: '',
       cards: [
         {
@@ -273,7 +273,7 @@ const initialtitlesState = {
       ],
     },
     {
-      title: 'Action (set G)',
+      title: 'Emotions',
       image: '',
       cards: [
         {
