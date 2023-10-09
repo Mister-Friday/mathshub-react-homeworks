@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: var(--secondary_color);
+  border-radius: 5px;
+  margin: 5px;
+}
